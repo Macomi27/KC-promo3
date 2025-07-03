@@ -8,7 +8,10 @@
 
 body {
     font-family: Poppins, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #000;
 }
 
@@ -17,7 +20,6 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 .logo{
@@ -82,12 +84,11 @@ li>a{
 .hero-container{
     width: 100%;
     display: flex;
-    
+    margin-top: 50px;
 }
 
 .hero-right{
     width: 50%;
-    border: 1px solid black;
     position: relative;
     display: flex;
     align-items: center;
@@ -108,7 +109,6 @@ li>a{
 
 .hero-img{
     width: 100%;
-    border: 1px solid black;
 }
 
 .hero-left{
@@ -118,7 +118,7 @@ li>a{
     align-items: flex-start;
     gap: 30px;
     justify-content: center;
-    margin-left: 30px;border: 1px solid black;
+    margin-left: 30px;
 }
 
 .text h2{
@@ -139,7 +139,7 @@ li>a{
     display: flex;
     align-items: center;
     gap: 15px;
-    border: 1px solid blue;
+    
 }
 
 .download-box{
@@ -162,13 +162,13 @@ li>a{
 .apple-txt{
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 1px;
     justify-content: center;
 }
 
 .apple-txt p, .play-txt p{
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 550;
 }
 .apple-txt>h4, .play-txt>h4{
     text-transform: capitalize;
