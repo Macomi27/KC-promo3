@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 100px;
+}
+
+img{
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+li>a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.fa-chevron-down{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 6px;
+}
+
+.cred{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.signup, .login{
+    width: 100px;
+    padding-block: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login{
+    background-color: #CBFFD0;
+}
+
+.signup{
+    background-color: #26A69A;
+}
+
+.hero-container{
+    width: 100%;
+    display: flex;
+    
+}
+
+.hero-right{
+    width: 50%;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bg-shape{
+    width: 65%;
+    height: 600px;
+    position: absolute;
+    border-top-left-radius: 50%;
+    background-color: #CBFFD0;
+    z-index: -1;
+    overflow: hidden;
+    right: 0;
+    bottom: 0;
+}
+
+.hero-img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+.hero-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 30px;border: 1px solid black;
+}
+
+.text h2{
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.text p{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.download-links{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border: 1px solid blue;
+}
+
+.download-box{
+    width: 50%;
+    background-color: #000;
+    border: 1px solid #A6A6A6;
+    display: flex;
+    align-items: center;
+    padding:10px 15px;
+    color: #fff;
+    gap: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fa-apple{
+    font-size: 44px;
+}
+
+.apple-txt{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+}
+
+.apple-txt p, .play-txt p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.apple-txt>h4, .play-txt>h4{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.play-txt p{
+    text-transform: uppercase;
+}
+
+.play-icon{
+    width: 38px;
+}
