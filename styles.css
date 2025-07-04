@@ -108,7 +108,6 @@ li>a{
     border-top-left-radius: 70%;
     background-color: #CBFFD0;
     z-index: 1;
-    overflow: hidden;
     right: 0;
     bottom: 0;
 }
@@ -188,6 +187,61 @@ li>a{
 
 .play-icon{
     width: 24px;
+}
+
+.faq{
+    width: 100%;
+    background-image: url('./assets/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: top;
+    color: #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.faq-bg-shape{
+    width: 25%;
+    height: 400px;
+    position: absolute;
+    border-bottom-right-radius: 70%;
+    background-color: #CBFFD0;
+    top: 0;
+    left: 0;
+}
+
+.faq-container{
+    width: 35%;
+    margin-inline: auto;
+}
+
+.faq-container h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.qs{
+    width: 100%;
+    background-color: #26A69A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.qs-content{
+    width: 100;
+    background-color: #CBFFD0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
 }
 
 footer{
