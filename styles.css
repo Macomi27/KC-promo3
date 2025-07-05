@@ -393,7 +393,8 @@ li>a{
 
 .faq-container{
     width: 35%;
-    margin-inline: auto;
+    position: absolute;
+    right: 25%;
 }
 
 .faq-container h2{
