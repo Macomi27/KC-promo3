@@ -105,7 +105,7 @@ li>a{
     width: 65%;
     height: 600px;
     position: absolute;
-    border-top-left-radius: 70%;
+    border-top-left-radius: 60%;
     background-color: #CBFFD0;
     z-index: 1;
     right: 0;
@@ -189,12 +189,100 @@ li>a{
     width: 24px;
 }
 
+.how-it-works{
+    width: 100%;
+    background-image: url('./assets/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    background-position: top;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.how-it-works h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-block: 50px 30px;
+    text-transform: capitalize;
+}
+
+.steps{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.steps-12{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.steps-34{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step1, .step2, .step3, .step4{
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.step1, .step2{
+    background-color: #CBFFD0;
+}
+
+.step3, .step4{
+    color: #fff;
+    background-color: #26A69A;
+}
+
+.how-img{
+     width: 500px;
+    position: absolute;
+    left: 37%;
+    z-index: 5;
+    bottom: -50%;
+}
+
+.how-bg-shape1{
+     width: 25%;
+    height: 300px;
+    position: absolute;
+    border-top-left-radius: 60%;
+    background-color: #CBFFD0;
+    left: 22%;
+    bottom: 0;
+}
+
+.how-bg-shape2{
+     width: 25%;
+    height: 300px;
+    position: absolute;
+    border-top-right-radius: 60%;
+    background-color: #CBFFD0;
+    right: 22%;
+    bottom: 0;
+}
+
 .faq{
     width: 100%;
     background-image: url('./assets/bg.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     background-position: top;
     color: #000;
     display: flex;
@@ -203,10 +291,10 @@ li>a{
 }
 
 .faq-bg-shape{
-    width: 25%;
+    width: 20%;
     height: 400px;
     position: absolute;
-    border-bottom-right-radius: 70%;
+    border-bottom-right-radius: 60%;
     background-color: #CBFFD0;
     top: 0;
     left: 0;
