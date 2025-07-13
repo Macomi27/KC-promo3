@@ -366,7 +366,7 @@ li>a{
     position: absolute;
     border-top-right-radius: 60%;
     background-color: #CBFFD0;
-    right: 20%;
+    right: 25%;
     bottom: 0;
 }
 
@@ -422,8 +422,8 @@ li>a{
     width: 90%;
     margin-inline: auto;
     display: grid;
-    grid-template-columns: repeat(10, 10%);
-    grid-template-rows: repeat(14, 10%);
+    grid-template-columns: repeat(9, 10%);
+    grid-template-rows: repeat(12, 10%);
     justify-content: center;
     position: relative;
 }
@@ -440,6 +440,7 @@ li>a{
 .tes-E{
     background-color: #CBFFD0;
     grid-area: 2/1/12/5;
+    z-index: 2;
     justify-content: center;
 }
 
@@ -447,17 +448,18 @@ li>a{
     background-color: #26A69A;
     position: relative;
     z-index: 5;
-    grid-area: 1/4/13/8;
+    grid-area: 1/4/13/7;
 }
 
 .tes-T{
     background-color: #CBFFD0;
-    grid-area: 2/7/12/11;
+    grid-area: 2/6/12/10;
+    z-index: 2;
     justify-content: center;
 }
 
 .fa-circle-user{
-    font-size: 60px;
+    font-size: 44px;
 }
 
 .rating{
@@ -472,7 +474,7 @@ li>a{
 
 .tes-box p{
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -494,6 +496,7 @@ li>a{
     position: relative;
     box-shadow: 0 -8px 12px  rgb(0, 0, 0, 0.25) inset,
     0 8px 12px  rgb(0, 0, 0, 0.25) inset;
+    z-index: 21;
 }
 
 .faq-bg-shape{
